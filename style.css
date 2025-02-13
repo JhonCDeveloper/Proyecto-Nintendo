@@ -1,0 +1,98 @@
+body{
+    background-color: #5E0202;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+header{
+    background-color: #000000;
+    color: #fff;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    text-align: center;
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre elementos */
+    align-items: center; /* Centra verticalmente todos los elementos del header */
+}
+.logoNintendo img{
+    width: 244px;
+    height: auto;
+    margin: 0 auto;
+    align-items: start;
+}
+.botonesSesion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 50vh;
+    gap: 7px;
+
+}
+.iniciarSesion{
+    width: 120px;
+    height: 48px;
+    padding: 0px 16px 0px 16px;
+    background: #FE0016;
+    color: #FFFFFF;
+    border-color: #E61610;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px 9px 9px 9px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.registro{
+    width: 120px;
+    height: 48px;
+    padding: 0px 16px 0px 16px;
+    background: #FFFFFF00;
+    color: #FFFFFF;
+    border-color: #1464F600;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px 9px 9px 9px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.boton-lupa {
+    background-color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  .material-symbols-outlined {
+    font-size: 40px; /* Ajusta el tamaño del icono */
+    color: #FFFFFF; /* Cambia el color si deseas */
+}
+nav{
+    width: 90vh;
+    padding-right: 7px;
+    padding-left: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 200vh;
+    margin: 0;
+    justify-content: space-between;
+}
+nav li{
+    display: block;
+}
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
