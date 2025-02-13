@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vento - Editorial Interactivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        .hero {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .gallery {
+            display: flex;
+            overflow-x: scroll;
+            gap: 10px;
+            padding: 10px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .interactive {
+            padding: 20px;
+        }
+        .interactive button {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">Vento - Moda en Movimiento</div>
+    <div class="container">
+        <div class="section">
+            <h2>Sobre la Marca</h2>
+            <p>Descubre la elegancia y frescura de Vento, una marca inspirada en el viento y el movimiento natural.</p>
+        </div>
+        <div class="section">
+            <h2>Galería de Colecciones</h2>
+            <div class="gallery">
+                <img src="vestido1.jpg" alt="Colección 1">
+                <img src="vestido2.jpg" alt="Colección 2">
+                <img src="vestido3.jpg" alt="Colección 3">
+            </div>
+        </div>
+        <div class="section interactive">
+            <h2>Descubre tu Estilo</h2>
+            <button onclick="alert('Tu estilo es: Elegante y Fresco')">Haz clic para descubrir</button>
+        </div>
+    </div>
+</body>
+</html>
